@@ -1,0 +1,82 @@
+.home-background {
+  background-image: url("../../assets/brasaBackground.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.safe-area {
+  height: 120px;
+}
+.home {
+  height: 650px;
+  display: flex;
+  align-items: flex-end;
+  gap: 80px;
+  justify-content: center;
+}
+
+.server-area {
+  width: 12%;
+  height: 8%;
+}
+
+.server-text {
+  cursor: default;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  color: orange;
+  font-size: xx-large;
+}
+
+.copy-button {
+  cursor: pointer;
+
+  height: 80%;
+  border-style: solid;
+  border-color: orange;
+  border-radius: 15px;
+  background-color: #aaa;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-text {
+  padding-inline: 10px;
+  width: 20%;
+  white-space: nowrap;
+}
+
+.copy-icon {
+  margin-inline: 5px;
+
+  width: 20%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: orange;
+  border-radius: 15px;
+}
+
+.copy-button:hover {
+  color: white;
+  background-color: #333;
+  border-color: orange;
+}
+
+.vip-background {
+  background-image: url("../../assets/brasaBackground.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar-links {
+  margin-inline: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+  height: 100%;
+}
+
+.brasa-logo {
+  cursor: pointer;
+
+  width: 150px;
+}
+
+.navbar-item {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  border-radius: 15px;
+  height: 80%;
+  width: 20%;
+  color: orange;
+}
+
+.navbar-item:hover {
+  color: white;
+  background-color: #222;
+}
