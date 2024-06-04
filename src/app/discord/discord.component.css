@@ -15,7 +15,7 @@
 
 .discord-button {
   cursor: pointer;
-
+  text-decoration: none;
   margin-top: 100px;
   width: 40%;
   height: 20%;
@@ -26,6 +26,12 @@
   align-items: center;
   text-align: center;
   display: flex;
+  color: white;
+}
+
+.discord-button:hover {
+  border-color: gray;
+  color: #eee;
 }
 
 .discord-icon {
@@ -39,10 +45,8 @@
 
 .discord-text-1 {
   font-size: 50px;
-  color: white;
 }
 
 .discord-text-2 {
   font-size: 70px;
-  color: white;
 }

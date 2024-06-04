@@ -2,17 +2,18 @@
   position: fixed;
   top: 0;
   align-items: center;
-  height: 120px;
+  height: 80px;
   width: 100%;
   background-color: black;
+  z-index: 2;
 }
 
 .navbar-links {
-  margin-inline: 100px;
+  margin-inline: 20%;
   display: flex;
   align-items: center;
-  justify-content: left;
-  width: 50%;
+  justify-content: space-between;
+
   height: 100%;
 }
 
